@@ -1,0 +1,69 @@
+
+Vim syntax file for Zillions of Games .zrf files
+================================================
+
+Installation
+------------
+
+This description assumes you have installed the Vim editor.
+Copy the zrf.vim file to the directory $VIMRUNTIME/syntax/.
+For most Windows users this path will be something like
+"C:\Program Files\vim\vimfiles" depending on where Vim was
+installed.
+Next open the file $VIMRUNTIME/filetype.vim and add the
+following line to it:
+
+  au BufNewFile,BufRead *.zrf    setf zrf
+
+If this file does not exist, you can simply copy all .vim
+files from the $VIM directory (C:\Program Files\vim in the
+example above) into $VIMRUNTIME.
+
+Alternatively the changes described above can be applied
+to the files in the $VIM directory directly. However, this
+approach will lose the changes when installing a new
+version of Vim and, thus, is not recommended.
+
+Using it
+--------
+
+After the installation all files with the .zrf suffix
+will - hopefully - be syntax highlighted. If the look
+does not satisfy you, feel free to adapt the file to
+your individual requirements.
+
+Background
+----------
+
+Vim is one of the most powerful editors available today.
+It is especially popular among developers working on both
+Windows and Unix systems as it is available for a large
+number of systems. It is an improvement of the classical
+Unix editor vi.
+While traditional vi was quite hard to learn, Vim today
+comes with an easily extendable menu system facilitating
+a quick start. If you want to give it a try, you can learn
+more about it at http://www.vim.org. Vim is both open
+source and charity-ware.
+Vim offers powerful mechanisms for highlighting files in
+various formats. More than 350 are supported out of the
+box. Users can write additional syntax files.
+
+Zillions of Games is an extendable, universal engine for
+playing various forms of games. It ships with already more
+than 300 games and variations. New games can be described
+in ZRF, the Zillions Rule File. You only need to specify
+the rules of a game - not neccessarily how to play it.
+Zillions of Games is commercial software.
+New games are written in an arbitrary editor and today
+support for ZRF highlighting is available for several
+editors. Learn more at http://www.ZillionsOfGames.com.
+
+I wrote this syntax file to facilitate my own game
+programming for Zillions of Games. It is the very first
+syntax file I wrote and so probably it is far from
+perfect. At the moment it is not context sensitive at
+all. Maybe I will improve that, but do not count on it.
+Any feedback is welcome and appreciated.
+
+- Jochen Schoof <joscho@gmx.de>, June 2003
