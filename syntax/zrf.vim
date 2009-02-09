@@ -3,9 +3,10 @@
 "               see http://www.zillionsofgames.com for more info
 " Maintainer:	Jochen Schoof <joscho@bigfoot.de>
 " Inspired by various .vim files contained in the VIM 6.1 distribution
-" Last Change:	2003 Jun 20
-" Version:	1.1
+" Last Change:	2009 Feb 9
+" Version:	1.2
 " Changes:	- corrected identifier pattern (thanks to Jeff Mallett) 
+" 		- (finally) updated description to match Vim 7.x
 "
 " This is probably far from perfect as it is my first syntax file.
 " All feedback and input is appreciated.

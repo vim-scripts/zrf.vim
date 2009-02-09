@@ -2,6 +2,13 @@
 Vim syntax file for Zillions of Games .zrf files
 ================================================
 
+Versions
+--------
+
+1.0 (20030620) - initial version
+1.1 (20030621) - corrected identifier pattern
+1.2 (20090209) - updated description to match Vim 7.x
+
 Installation
 ------------
 
@@ -11,9 +18,12 @@ For most Windows users this path will be something like
 "C:\Program Files\vim\vimfiles" depending on where Vim was
 installed.
 Next open the file $VIMRUNTIME/filetype.vim and add the
-following line to it:
+appropriate line to it:
 
+For Vim 6.x:
   au BufNewFile,BufRead *.zrf    setf zrf
+For Vim 7.x:
+  au BufNewFile,BufRead *.zrf    call s:StarSet('zrf')
 
 If this file does not exist, you can simply copy all .vim
 files from the $VIM directory (C:\Program Files\vim in the
